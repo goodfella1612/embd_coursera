@@ -22,7 +22,7 @@
 #define __STATS_H__
 
 
-void print_statistics(int *arr , int size);
+void print_statistics(unsigned char *arr , int size);
 /**
  * @brief  A function that prints the statistics of an array including minimum, maximum, mean, and median.
  *
@@ -33,7 +33,7 @@ void print_statistics(int *arr , int size);
  * @return Null
  */
 
-void print_array(int *arr , int size);
+void print_array(unsigned char *arr , int size);
 /**
  * @brief Given an array of data and a length, prints the array to the screen
  *
@@ -44,7 +44,7 @@ void print_array(int *arr , int size);
  * @return Null
  */
 
-unsigned char find_median(int *arr , int size);
+unsigned char find_median(unsigned char *arr , int size);
 /**
  * @brief  Given an array of data and a length, returns the median value
  *
@@ -55,7 +55,7 @@ unsigned char find_median(int *arr , int size);
  * @return Median of the data
  */
 
-unsigned char find_mean(int *arr , int size);
+unsigned char find_mean(unsigned char *arr , int size);
 /**
  * @brief  Given an array of data and a length, returns the mean value
  *
@@ -66,7 +66,7 @@ unsigned char find_mean(int *arr , int size);
  * @return Mean of the data
  */
 
-unsigned char find_maximum(int *arr , int size);
+unsigned char find_maximum(unsigned char *arr , int size);
 /**
  * @brief  Given an array of data and a length, returns the maximum value
  *
@@ -77,7 +77,7 @@ unsigned char find_maximum(int *arr , int size);
  * @return Maximum of the data
  */
 
-unsigned char find_minimum(int *arr , int size);
+unsigned char find_minimum(unsigned char *arr , int size);
 /**
  * @brief  Given an array of data and a length, returns the minimum value
  *
@@ -88,7 +88,7 @@ unsigned char find_minimum(int *arr , int size);
  * @return Minimum of the data
  */
 
-void sort_array(int *arr , int size);
+void sort_array(unsigned char *arr , int size);
 /**
  * @brief  Given an array of data and a length, sorts the array from largest to smallest.
  *
