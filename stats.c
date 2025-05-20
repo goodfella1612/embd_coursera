@@ -38,6 +38,33 @@ void main() {
   /* Other Variable Declarations Go Here */
   /* Statistics and Printing Functions Go Here */
 
+
 }
 
-/* Add other Implementation File Code Here */
+void print_statistics(int *arr , int size) {
+
+}
+
+void print_array(int *arr , int size) {
+
+}
+
+unsigned char find_median(int *arr , int size) {
+
+}
+
+unsigned char find_mean(int *arr , int size) {
+
+}
+
+unsigned char find_maximum(int *arr , int size) {
+
+}
+
+unsigned char find_minimum(int *arr , int size) {
+
+}
+
+void sort_array(int *arr , int size) {
+    
+}

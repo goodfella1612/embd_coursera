@@ -21,19 +21,81 @@
 #ifndef __STATS_H__
 #define __STATS_H__
 
-/* Add Your Declarations and Function Comments here */ 
 
+void print_statistics(int *arr , int size);
 /**
- * @brief <Add Brief Description of Function Here>
+ * @brief  A function that prints the statistics of an array including minimum, maximum, mean, and median.
  *
- * <Add Extended Description Here>
  *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
+ * @param arr  A pointer to the array
+ * @param size THe size of the array
  *
- * @return <Add Return Informaiton here>
+ * @return Null
+ */
+
+void print_array(int *arr , int size);
+/**
+ * @brief Given an array of data and a length, prints the array to the screen
+ *
+ *
+ * @param arr  A pointer to the array
+ * @param size THe size of the array
+ *
+ * @return Null
+ */
+
+unsigned char find_median(int *arr , int size);
+/**
+ * @brief  Given an array of data and a length, returns the median value
+ *
+ *
+ * @param arr  A pointer to the array
+ * @param size THe size of the array
+ *
+ * @return Median of the data
+ */
+
+unsigned char find_mean(int *arr , int size);
+/**
+ * @brief  Given an array of data and a length, returns the mean value
+ *
+ *
+ * @param arr  A pointer to the array
+ * @param size THe size of the array
+ *
+ * @return Mean of the data
+ */
+
+unsigned char find_maximum(int *arr , int size);
+/**
+ * @brief  Given an array of data and a length, returns the maximum value
+ *
+ *
+ * @param arr  A pointer to the array
+ * @param size THe size of the array
+ *
+ * @return Maximum of the data
+ */
+
+unsigned char find_minimum(int *arr , int size);
+/**
+ * @brief  Given an array of data and a length, returns the minimum value
+ *
+ *
+ * @param arr  A pointer to the array
+ * @param size THe size of the array
+ *
+ * @return Minimum of the data
+ */
+
+void sort_array(int *arr , int size);
+/**
+ * @brief  Given an array of data and a length, sorts the array from largest to smallest.
+ *
+ * @param arr  A pointer to the array
+ * @param size THe size of the array
+ *
+ * @return Null
  */
 
 
