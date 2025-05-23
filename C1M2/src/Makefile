@@ -78,7 +78,7 @@ c1m2.out : $(OBJECTS)
 %.o : %.c 
 	$(CC) $(CPPFLAGs) $(CFLAGS) $(INCLUDES) -MD -c $< -o $@
 
-%.i : %.C
+%.i : %.c
 	$(CC) $(CPPFLAGs) $(CFLAGS) $(INCLUDES) -E -c $< -o $@	
 
 %.asm: %.c
